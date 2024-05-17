@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --background-color: solid;
+  --text-color: #575c62;
+
+}
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+}
+body{
+  /*border: 1px solid black;*/
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(58, 52, 52, 0.1) 100%), linear-gradient(90deg, #84d2ff, #8d5acd);
+}
+.login-form-container{
+  /*border: 1px solid black;*/
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px -2px rgb(126, 126, 126);
+}
+.login-form-container>h2{
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  letter-spacing: 1.5px;
+}
+
+.form-group{
+ /*border: 1px solid black;*/
+  display: flex;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: inset 1px 1px 3px rgb(126, 126, 126),1px 1px 3px white;
+
+}
+.form-group>.icon-con{
+  /*border: 1px solid black;*/
+  width: 30px;
+  color: var(--text-color);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.form-group>input{
+  background-color: transparent;
+  padding-left: 10px;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+}
+.forget-password-link{
+  color: blue;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 12px;
+  display: block;
+  font-weight: bold;
+  text-align: right;
+
+}
+.login-btn{
+ /*border: 1px solid black;*/
+  display: flex;
+  height: 40px;
+  border-radius: 20px;
+justify-content: center;
+align-items: center;
+box-shadow: 3px 3px 10px -2px rgb(126, 126, 126);
+font-weight: bold;
+cursor: pointer;
+letter-spacing: 1.5px;
+text-decoration: none;
+}
+
+.login-btn:hover{
+  color:blue;
+}
+.login-btn:active{
+  box-shadow: .5px .5px 1px rgb(126, 126, 126);
+  color: var(--text-color);
+}
+.signup-container{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.signup-container>a{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
